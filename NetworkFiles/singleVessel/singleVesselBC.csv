@@ -1,0 +1,4 @@
+Id;boundaryType;amp;ampConst;Npulse;Tpulse;freq;Tspace;runtimeEvaluation;prescribe;scale;filePathName;gaussC;Rt;Z;C;T;Emax;Emin;Tpeak;V0;K;RtOpen;Topen1;Topen2;RtClosed;Tclosed1;Tclosed2;Rc;Rtotal
+unit;;#m3 s-1;#m3 s-1;;#s;#s-1;#s;;;;;;;#Pa s m-3;#m3 Pa-1;#s;#Pa m-3;#Pa m-3;#s;#m3;#s m-3;;#s;#s;;#s;#s;#Pa s m-3;#Pa s m-3
+0;Flow-Sinus2;0.0005;0.0;10.0;0.0;2.0;0.595;False;influx;;;;;;;;;;;;;;;;;;;;
+0;_Windkessel-3Elements;;;;;;;;;;;;;VesselImpedance;4.48609357e-08;;;;;;;;;;;;;;133000000.0

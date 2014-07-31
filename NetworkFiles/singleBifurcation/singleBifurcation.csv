@@ -1,0 +1,5 @@
+Id;name;leftDaughter;rightDaughter;angleYMother;geometryType;length;radiusProximal;radiusDistal;N;complianceType;constantCompliance;externalPressure;Ps;As;betaHayashi;distensibility;wallThickness;youngModulus;betaLaplace;betaLaplace-pC1;betaLaplace-pC2;betaExponential;applyGlobalFluid;my;rho;gamma
+unit;;;;#rad;;#m;#m;#m;;;;#Pa;#Pa;#m2;#Pa;#Pa-1;#m;#m2;#Pa;#Pa;#Pa;;;#Pa s;#kg m-3;
+0;parentVessel;1;2;0.0;cone;0.5;0.0075;0.005;50.0;Laplace;False;0.0;0.0;;1.0;;;;324970.0;292473.0;357467.0;;True;1e-06;1050.0;
+1;leftDaugther;;;0.4363323129985824;cone;0.5;0.002041241452;0.001841241452;50.0;Laplace;False;0.0;0.0;;1.0;;;;796020.0;716418.0;875622.0;;True;1e-06;1050.0;
+2;rightDaugther;;;-0.4363323129985824;cone;0.5;0.0020411;0.001841241452;50.0;Laplace;False;0.0;0.0;;1.0;;;;796020.0;716418.0;875622.0;;True;1e-06;1050.0;
