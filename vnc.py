@@ -75,7 +75,7 @@ def main():
         menuInput = ""
         print ""
         print '====================================='
-        print '#    VascularNetworkCreator_v2.1    #'
+        print '#    VascularNetworkCreator_v2.3    #'
         print '====================================='
         print " [a] - add vessel to network"
         print " [d] - delete vessel in network"

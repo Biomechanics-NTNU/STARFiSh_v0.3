@@ -43,7 +43,7 @@ __version__ = "0.3"
 def main():
     print ""
     print '====================================='
-    print '#       Vascular1dFlow_v0.2         #'
+    print '#          STARFiSh_v0.3            #'
     print '====================================='
     
     optionsDict = parseOptions(['f','n','d','s','v','r'])

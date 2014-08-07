@@ -10,9 +10,7 @@ sys.path.append(cur+'/../'+'/UtilityLib')
 from constants import vesselComplianceElements
 
 from math import pi, cos, sin
-
 import numpy as np
-
 from copy import deepcopy
 
 __author__ = "Vinzenz Gregor Eck"

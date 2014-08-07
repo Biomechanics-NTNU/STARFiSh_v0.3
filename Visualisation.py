@@ -14,7 +14,7 @@ __version__ = "0.3"
 def main():    
     print ""
     print '====================================='
-    print '# Vascular1dFlow_v0.2 Visualisation #'
+    print '#    STARFiSh_v0.3 Visualisation    #'
     print '====================================='
     print ""
     

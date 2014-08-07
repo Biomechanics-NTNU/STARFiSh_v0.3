@@ -584,53 +584,6 @@ xmlElementsReference = {'simulationContext'     : simulationContextElements,
                         'vessels'               : vesselElements }
 
 
-# ######## old xml version 3.0 to be deleted soon
-# #----------------------------------------------------------------------------------------# 
-# # dictionary to set the output-du matrix for common flow/pressure bc-function as Sinus,Sinus^2 and Mean
-# import numpy as np
-# bcDuMatrix = { 'Pressure'   : np.array([1,0]),
-#                'Flow'       : np.array([0,1])}
-# 
-# bcTags = {# Type 1 attribute
-#           # BoundaryConditions normal
-#           'ReflectionCoefficient'       :['Rt'],
-#           'ReflectionCoefficientTimeVarying' : ['RtOpen','Topen1','Topen2','RtClosed','Tclosed1','Tclosed2'],
-#           'Resistance'                  :['Rc'],
-#           'Windkessel-2Elements'        :['Rc','C'],
-#           'Windkessel-3Elements'        :['Rc','Rtotal','C','Z'],
-#           'Flow-PhysiologicalFunction'  :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           'Flow-Sinus'                  :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           'Flow-Sinus2'                 :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           'Flow-RampMean'               :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           'Velocity-Gaussian'           :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','gaussC','prescribe'],
-#           'Pressure-Sinus'              :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           'Pressure-Sinus2'             :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           'Pressure-RampMean'           :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           'Flow-Fourier'                :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','scale','prescribe'],
-#           'Flow-PhysiologicalData'      :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           'Flow-FromFile'               :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','filePathName','prescribe'],
-#           'L-network'                   :['Z','C'],
-#           'VaryingElastanceHeart'       :['T', 'Emax', 'Emin', 'Tpeak', 'V0', 'K'],
-#           # BoundaryCondition names if 1 Vessel '_' == end-positionreference 
-#           '_Flow-PhysiologicalFunction' :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           '_Flow-Sinus'                 :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           '_Flow-Sinus2'                :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           '_Flow-RampMean'              :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           '_Flow-Fourier'               :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','scale','prescribe'],
-#           '_Flow-PhysiologicalData'     :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           '_Flow-FromFile'              :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','filePathName','prescribe'],
-#           '_Velocity-Gaussian'          :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','C','prescribe'],
-#           '_Pressure-Sinus'             :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           '_Pressure-Sinus2'            :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           '_Pressure-RampMean'          :['amp','ampConst','Npulse','Tpulse','freq','Tspace','runtimeEvaluation','prescribe'],
-#           '_ReflectionCoefficient'      :['Rt'],
-#           '_ReflectionCoefficientTimeVarying' : ['RtOpen','Topen1','Topen2','RtClosed','Tclosed1','Tclosed2'],
-#           '_Resistance'                 :['Rc'],
-#           '_Windkessel-2Elements'       :['Rc','C'],
-#           '_Windkessel-3Elements'       :['Rc','Rtotal','C','Z'],
-#           '_L_network'                  :['Z','C'],
-#           'None'                        :['']} 
-
 
 ##########################################################################################
 ## Vascular Polynomial Chaos
