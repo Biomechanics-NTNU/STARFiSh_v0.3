@@ -8,8 +8,6 @@ def systemCheck():
         matplotlib
         numpy
         scipy
-        #mayavi2
-        #tvtk
         lxml2
         pydot
         gtk
@@ -56,29 +54,7 @@ def systemCheck():
         print installed
     except:
         print " IMPORT ERROR; no version of scipy found"
-    
-#     print "check for  mayavi2 ..."
-#     try:
-#         import mayavi
-#         print installed
-#     except:
-#         try: 
-#             import enthought.mayavi
-#             print installed," [Old Version !!]"
-#         except:
-#             print "IMPORT ERROR; no version of mayavi2 found"
-#     
-#     print "check for  tvtk ..."
-#     try:
-#         import tvtk
-#         print installed
-#     except:
-#         try:
-#             import enthought.tvtk.api
-#             print installed," [Old Version !!]"
-#         except:
-#             print "IMPORT ERROR; no version of tvtk found"
-    
+        
     print "check for lxml2      ",
     try:
         import lxml
@@ -113,13 +89,6 @@ def systemCheck():
         print installed
     except:
         print " IMPORT ERROR; no version of pyOpenGL found" 
-# 
-#     print "check for xdot ...",
-#     try:
-#         import xdot
-#         print installed
-#     except:
-#         print "IMPORT ERROR; no version of xdot found (http://pypi.python.org/pypi/xdot )" 
         
     print "check for pydot      ",
     try:

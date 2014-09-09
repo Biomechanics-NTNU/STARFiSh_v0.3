@@ -63,12 +63,19 @@ class Visualisation3DGUI(pyglet.window.Window):
         display = platform.get_default_display()
         screen = display.get_default_screen()
         
+        
         template = pyglet.gl.Config(sample_buffers=sample_buffers,
                                     samples = samples,
                                     double_buffer=True,
                                     depth_size = depth_size,
                                     stencil_size = stencil_size)
-        config = screen.get_best_config(template)
+        try:
+            config = screen.get_best_config(template)
+        except pyglet.window.NoSuchConfigException:
+            print " OpenGL: simple context configuration is applied due to installed hardware"
+            template = gl.Config()
+            config = screen.get_best_config(template)
+                        
         context = config.create_context(None)
         
         super(Visualisation3DGUI, self).__init__(resizable = True, context = context)
