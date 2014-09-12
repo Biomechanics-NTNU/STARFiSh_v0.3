@@ -30,15 +30,18 @@ def systemCheck():
         print " IMPORT ERROR; no version of matplotlib.pyplot found"
     
     print "check for mencoder   ",
-    if matplotlibInstalled:
-        import matplotlib.animation as animation
-        
-        if animation.MencoderWriter.isAvailable():
-            print installed
+    try:
+        if matplotlibInstalled:
+            import matplotlib.animation as animation
+            
+            if animation.MencoderWriter.isAvailable():
+                print installed
+            else:
+                print " IMPORT ERROR; no version of mencoder found"     
         else:
-            print " IMPORT ERROR; no version of mencoder found"     
-    else:
-        print " IMPORT ERROR; no version of matplotlib.pyplot found thus cannot check for mencoder"     
+            print " IMPORT ERROR; no version of matplotlib.pyplot found thus cannot check for mencoder"     
+    except:    
+        print " IMPORT ERROR; no version of mencoder found"    
         
     print "check for numpy      ",
     try:
