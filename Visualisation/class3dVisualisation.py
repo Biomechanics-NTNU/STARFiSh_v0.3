@@ -1,5 +1,5 @@
 import sys,os,io
-from wx._core import CURSOR_DEFAULT, CURSOR_SIZING
+
 cur = os.path.dirname( os.path.realpath( __file__ ) )
 
 sys.path.append(cur+'/../UtilityLib')
