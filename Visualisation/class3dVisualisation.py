@@ -76,9 +76,9 @@ class Visualisation3DGUI(pyglet.window.Window):
         try:
             config = screen.get_best_config(templateHigh)
         except pyglet.window.NoSuchConfigException:
-            try: 
-                print "OpenGlconfig", config
+            try:
                 config = screen.get_best_config(templateLow)
+                print "OpenGlconfig", config
             except pyglet.window.NoSuchConfigException:
                 print " OpenGL: simple context configuration is applied due to installed hardware"
                 template = gl.Config()
