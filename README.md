@@ -1,4 +1,6 @@
 
+# New version 0.4 available see https://github.com/Biomechanics-NTNU/STARFiSh_v0.4
+
 STARFiSh
 ========
  
@@ -23,7 +25,7 @@ STARFiSh_v0.3 includes:
 
 Find more information and tutorials on the STARFiSh Homepage:
 
-http://folk.ntnu.no/vinzenz/STARFiSh-Homepage/
+https://www.ntnu.no/starfish
 
 
 
